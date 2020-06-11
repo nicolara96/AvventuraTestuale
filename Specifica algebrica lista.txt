@@ -1,0 +1,16 @@
+Specifica sintattica:
+
+tipi: list, boolean, int, element
+newlist() -> list
+add(element) -> list
+clear() -> list
+clone() -> list'
+contains(element) -> boolean
+get(index) -> element
+indexof(element) -> int
+isEmpty(list) -> boolean
+lastIndexOf(element) -> int
+remove(index) -> list
+remove(element) -> list
+set(index, element) -> list
+size() -> int

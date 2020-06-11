@@ -1,0 +1,16 @@
+Componete del gruppo: Michele Soragnese
+
+L'avventura testuale è un gioco breve dove un ragazzo deve entrare in un portale per andare in un altro mondo. Per farlo deve trovare una chiave, un'arma e deve uccidere un mostro.
+Le classi fondamentali per l'esecuzione del progetto sono: parser, room, monster, adventureObject, characterAdventure, command, inventory e weapon.
+Il parser serve per acquisire la prossima mossa dell'utente ed è indipente dalla lingua, non ammette infatti la presenza di articoli o congiunzioni ma soli i vari comandi e i diversi
+oggetti dell'avventura sparsi per la mappa.
+La mappa è realizzata attraverso le varie room dove ognuna punta a quelle adiacenti senza bisogno di avere un oggetto mappa.
+La classe adventureObject serve per creare tutti gli oggetti dell'avventura che quindi permette di avere un'astrazione abbastaza alta senza dover creare per ogni diverso oggetto una classe d'appartenza.
+L'unica eccezione a questi oggetti sono della classe weapon che eredita comunque da adventureObject ma aggiunge altri metodi per un più realistico uso delle armi.
+La classe commad serve per creare i comandi che possono essere utiliazzati. Se ne può aggiungere uno per ogni necessità.
+L'inventory serve per creare l'inventario del personaggio ed è realizzato attraverso una lista quindi è potenzialmente illimitato.
+La classe characterAdventure seve per modellare il personaggio e equipaggiare eventuali armi durante l'avventura.
+La classe monster viene usata per creare e aggiungere i mostri da sconfiggere nella mappa.
+
+La classe dove è possibile realizzare tutta la logica del gioco è game questo permettere di creare diversi giochi con l'uso delle stesse classi elencate prima e per ogni gioco crare una diversa classe dove
+inserire la logica dell' avventura.   

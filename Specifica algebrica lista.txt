@@ -14,3 +14,26 @@ remove(index) -> list
 remove(element) -> list
 set(index, element) -> list
 size() -> int
+
+osservatori							costruttori
+				newlist()		add(element)
+
+clear()				list			list
+
+clone()				list			list
+
+contains(element)		false			true
+
+get(index)			false			true
+
+indexof(int)			error			element
+
+isEmpty(list)			true			false
+
+lastIndexOf(element)		error			int
+
+remove()			error			list
+
+set()				error			list
+
+size()				0			int
